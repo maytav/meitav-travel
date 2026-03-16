@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "/og-image.jpg",
+                url: "https://travel.meitav-ins.co.il/og-image.jpg",
                 width: 1200,
                 height: 630,
                 alt: "מיטב ביטוח ופיננסים - ביטוח נסיעות לחו״ל",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "מיטב ביטוח ופיננסים | ביטוח נסיעות לחו״ל",
         description: "השוואת ביטוח נסיעות לחו״ל מכל חברות הביטוח במקום אחד.",
-        images: ["/og-image.jpg"],
+        images: ["https://travel.meitav-ins.co.il/og-image.jpg"],
     },
     icons: {
         icon: "/favicon.ico",
