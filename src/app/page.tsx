@@ -29,7 +29,7 @@ const companies = [
         name: 'כלל ביטוח',
         description:
             'פוליסות ביטוח נסיעות עם מגוון מסלולים ליחידים ולמשפחות, שירותי מוקד רפואי בינלאומי וכיסויים רפואיים מקיפים.',
-        link: 'https://www.clalbit.co.il/travelingisurance/claltravel/?txtCompID=1&txtItemID=6b05de62-677c-4942-9de9-6e9a0375a73f',
+        link: 'https://www.clalbit.co.il/travelingisurance/claltravel/?txtCompID=1&txtItemID=941a1c04-3115-4b31-87df-7eeb20e034ae',
     },
     {
         name: 'מנורה מבטחים',

@@ -5,7 +5,7 @@ export const dynamic = 'force-static';
 export default function manifest(): MetadataRoute.Manifest {
     return {
         name: 'מיטב ביטוח ופיננסים',
-        short_name: 'מיטב ביטוח',
+        short_name: 'ביטוח חו"ל',
         description: 'השוואת ביטוח נסיעות לחו״ל מכל חברות הביטוח במקום אחד',
         start_url: '/',
         display: 'standalone',
