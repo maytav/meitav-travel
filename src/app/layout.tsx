@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import {Heebo} from 'next/font/google';
 import './globals.css';
+import {AnalyticsProvider} from '@/components/providers/analytics-provider';
 
 const heebo = Heebo({
     subsets: ['hebrew'],
@@ -43,6 +44,7 @@ export default function RootLayout({
     return (
         <html lang="he" dir="rtl">
         <body className={`${heebo.className} antialiased`}>
+        <AnalyticsProvider/>
         {children}
         </body>
         </html>
