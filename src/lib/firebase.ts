@@ -1,7 +1,11 @@
-'use client';
-
 import {getApps, initializeApp} from 'firebase/app';
 import {getAnalytics, isSupported} from 'firebase/analytics';
+
+console.log('Checking Firebase envs', {
+    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+});
 
 const firebaseConfig = {
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -12,7 +16,6 @@ const firebaseConfig = {
     appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
     measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
-console.log('Checking Project ID:', process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID);
 
 // אתחול האפליקציה במידה ולא קיימת
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
