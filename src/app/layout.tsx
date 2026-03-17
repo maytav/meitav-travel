@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     title: 'מיטב ביטוח ופיננסים | ביטוח נסיעות לחו״ל',
     description: 'השוואת ביטוח נסיעות לחו״ל מכל חברות הביטוח במקום אחד.',
     metadataBase: new URL('https://travel.meitav-ins.co.il'),
+    verification: {
+        google: 'YUnUkCr3P7XfVUB9my1NZ0MQkQQvnWWXEnv6PbjhJlk',
+    },
     manifest: '/manifest.webmanifest',
     alternates: {
         canonical: 'https://travel.meitav-ins.co.il',
