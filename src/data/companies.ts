@@ -25,7 +25,7 @@ export const companies = [
         logo: '/logos/migdal.svg',
         description:
             'ביטוח נסיעות לחו״ל הכולל כיסויים רפואיים, אפשרויות הרחבה לספורט אתגרי, ביטול נסיעה והתאמה לסוגי נסיעות שונים.',
-        link: '#',
+        link: 'https://sites.migdal.co.il/NahalApp/#/nahal/newPolicy/firstStep?id=2068',
     },
     {
         name: 'כלל ביטוח',

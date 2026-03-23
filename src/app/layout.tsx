@@ -33,9 +33,20 @@ export const metadata: Metadata = {
         description: 'השוואת ביטוח נסיעות לחו״ל מכל חברות הביטוח במקום אחד.',
     },
     icons: {
-        icon: '/favicon.ico',
-        shortcut: '/favicon-32x32.png',
-        apple: '/apple-touch-icon.png',
+        icon: [
+            {
+                url: '/favicon.ico',
+                sizes: '48x48',
+                type: 'image/x-icon',
+            }
+        ],
+        apple: [
+            {
+                url: '/apple-touch-icon.png',
+                sizes: '180x180',
+                type: 'image/png',
+            },
+        ]
     },
 };
 
